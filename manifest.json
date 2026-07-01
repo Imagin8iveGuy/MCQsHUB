@@ -1,16 +1,43 @@
 {
+  "id": "/",
   "name": "MCQsHUB by ZERO",
   "short_name": "MCQsHUB",
-  "description": "Offline PPSC/PSC exam MCQ manager — books, papers, spaced repetition, one-liners.",
+  "description": "Offline PPSC/PSC exam MCQ manager — books, papers, spaced repetition, one-liners, and time-sensitive answer tracking for exam prep.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
   "orientation": "portrait-primary",
   "background_color": "#4169e1",
   "theme_color": "#4169e1",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["education", "productivity", "utilities"],
+  "prefer_related_applications": false,
+  "related_applications": [],
   "icons": [
     { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
     { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Question Bank",
+      "short_name": "Questions",
+      "url": "./index.html#questions",
+      "description": "Jump straight to your MCQ question bank"
+    },
+    {
+      "name": "One Liner",
+      "short_name": "One Liner",
+      "url": "./index.html#oneliner",
+      "description": "Practice one-liner answers"
+    },
+    {
+      "name": "Test Mode",
+      "short_name": "Test",
+      "url": "./index.html#test",
+      "description": "Start a timed MCQ test"
+    }
   ]
 }
