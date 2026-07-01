@@ -39,5 +39,21 @@
       "url": "./index.html#test",
       "description": "Start a timed MCQ test"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshot-narrow-1.jpg",
+      "sizes": "1080x2190",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Library and navigation menu"
+    },
+    {
+      "src": "screenshot-narrow-2.jpg",
+      "sizes": "1080x2190",
+      "type": "image/jpeg",
+      "form_factor": "narrow",
+      "label": "Compact icon-only navigation"
+    }
   ]
 }
